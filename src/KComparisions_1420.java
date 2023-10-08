@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class KComparisions_1420 {
 
     public int numOfArrays(int n, int m, int k) {
@@ -24,4 +26,9 @@ public class KComparisions_1420 {
         }
         return ans;
     }
+    public static void main(String[]args){
+        KComparisions_1420 k = new KComparisions_1420();
+        System.out.println(k.numOfArrays(3,5,7));
+    }
+
 }
